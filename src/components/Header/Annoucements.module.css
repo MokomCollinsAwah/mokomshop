@@ -1,0 +1,6 @@
+.announcements {
+    background-color: var(--color-purple);
+    text-align: center;
+    color: var(--color-white);
+    height: 25px;
+}
