@@ -53,3 +53,10 @@
 .banner__content-btn:hover {
     background: var(--color-bg);
 }
+
+/* MEDIA QUERIES (MOBIL DEVICES) */
+@media screen  and (max-width: 380px){
+    .container {
+        display: none;
+    }
+}

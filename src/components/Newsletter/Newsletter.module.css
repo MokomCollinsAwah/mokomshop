@@ -38,3 +38,15 @@
     background-color: var(--color-purple);
     color: var(--color-white);
 }
+
+/* MEDIA QUERIES (SMALL MOBILE DEVICES) */
+@media screen and (max-width: 380px) {
+    .newsletter__desc { 
+        text-align: center;
+
+    }
+    .newsletter__input-container {
+        width: 70%;
+    }
+}
+

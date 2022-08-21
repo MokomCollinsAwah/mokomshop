@@ -11,8 +11,8 @@ import { GrFormAdd } from "react-icons/gr";
 const Product = (props) => {
   return (
     <div className={classes["container"]}>
-      <Annoucements />
       <Nav />
+      <Annoucements />
       <div className={classes["product__wrapper"]}>
         <div className={classes["product__image-container"]}>
           <img src="https://i.ibb.co/S6qMxwr/jean.jpg" alt="jumsuit" />

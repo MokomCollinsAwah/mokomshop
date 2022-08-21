@@ -1,7 +1,7 @@
 .product__filter-container {
     display: flex;
     justify-content: space-between;
-        margin: 20px;
+    margin: 20px;
 
 }
 .product__title {
@@ -18,6 +18,14 @@
     margin-right: 20px;
 }
 
-.product__filter-select > option {
-    
+/* MEDIA QUERIES (SMALL MOBILE DEVICES) */
+@media screen  and (max-width: 380px){ 
+    .product__filter {
+        width: 0px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .product__filter-select {
+        margin: 10px 0px;
+    }
 }

@@ -1,0 +1,140 @@
+.wrapper {
+    padding: 20px;
+}
+
+.cart__title {
+    font-weight: 300;
+    text-align: center;
+}
+
+.cart__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.cart__top-btn {
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.cart__top-texts > span {
+    text-decoration: underline;
+    margin: 0 10px;
+}
+.cart__top-btn:nth-child(3) {
+    background: var(--color-black);
+    color: var(--color-white);
+    border: none;
+}
+
+.cart__bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__info {
+    flex: 3;
+}
+
+.cart__summary {
+    flex: 1;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product__details {
+    flex: 2;
+    display: flex;
+}
+
+.product__details > img {
+    width: 200px;
+}
+
+.details {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product__price-details {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product__amount-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product__amount {
+font-size: 24px;
+    margin: 5px;
+}
+
+.product__price {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.cart__summary {
+    flex: 1;
+    border: 0.5px solid lightgray;
+    padding: 20px;
+    height: 50vh;
+}
+
+.cart__summary > h1 {
+    font-weight: 200;
+}
+
+.summary__item {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary__item:nth-child(5) {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.cart__summary > button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+/* MEDIA QUERIES (SMALL MOBILE DEVICES) */
+@media screen  and (max-width: 380px){ 
+    .wrapper {
+       padding: 10px; 
+    }
+    .cart__top-texts {
+        display: none;
+    }
+    .cart__bottom {
+        flex-direction: column;
+    }
+    .product {
+         flex-direction: column;
+    }
+    .product__amount {
+        margin: 5px 15px;
+    }
+    .product__price {
+        margin-bottom: 20px;
+    }
+ }

@@ -73,3 +73,17 @@
 .footer-right >.footer__contact-item > img {
     width: 100%;
 }
+
+/* MEDIA QUERIES (SMALL MOBILE DEVICES) */
+@media screen and (max-width: 380px) {
+    .footer__center {
+        display: none;
+    }
+    .footer__container {
+        flex-direction: column;
+    }
+    .footer__right {
+        background: var(--color-bg-variant);
+        margin: 0px -20px;
+    }
+}

@@ -73,7 +73,6 @@
     background-color: gray;
 }
 
-
 .filter__size {
     margin-right: 10%;
     padding: 5px;
@@ -97,9 +96,10 @@
     height: 30px;
     border-radius: 10px;
     border: 1px solid var(--color-purple);
-    align-items: center;
     justify-content: center;
     margin: 0px 5px;
+        text-align: center;
+
 }
 
 .add__container button {
@@ -113,4 +113,25 @@
 .add__container > button:hover {
     background-color: var(--color-bg-variant);
     border-color:var(--color-black);
+}
+
+/* MEDIA QUERIES (SMALL MOBILE DEVICES) */
+@media screen  and (max-width: 380px){ 
+    .product__wrapper {
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .product__image-container > img {
+        height: 40%;
+    }
+    .product__info-container {
+        padding: 10px;
+    }
+    .filter__container {
+        width: 100%;
+    }
+    .add__container {
+        width: 100%;
+    }
 }
