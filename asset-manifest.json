@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mokomshop/static/css/main.5e3ff6d2.css",
-    "main.js": "/mokomshop/static/js/main.cffe3934.js",
+    "main.css": "/mokomshop/static/css/main.7570f80c.css",
+    "main.js": "/mokomshop/static/js/main.cf4dc713.js",
     "static/media/banner.png": "/mokomshop/static/media/banner.e602b14d6959114e761d.png",
     "static/media/cat3.jpg": "/mokomshop/static/media/cat3.7f581eef40cfea49df5e.jpg",
     "static/media/cat2.jpg": "/mokomshop/static/media/cat2.5c4baa9906889b672d34.jpg",
     "static/media/cat1.jpg": "/mokomshop/static/media/cat1.4992969a9230ee2b63ca.jpg",
     "index.html": "/mokomshop/index.html",
-    "main.5e3ff6d2.css.map": "/mokomshop/static/css/main.5e3ff6d2.css.map",
-    "main.cffe3934.js.map": "/mokomshop/static/js/main.cffe3934.js.map"
+    "main.7570f80c.css.map": "/mokomshop/static/css/main.7570f80c.css.map",
+    "main.cf4dc713.js.map": "/mokomshop/static/js/main.cf4dc713.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e3ff6d2.css",
-    "static/js/main.cffe3934.js"
+    "static/css/main.7570f80c.css",
+    "static/js/main.cf4dc713.js"
   ]
 }
